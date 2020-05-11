@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana;
+
+	margin-top: 100px;
+}
+.caixatenta {
+	margin: auto;
+	background: #CCC;
+	border: 1px solid;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 20px;
+
+}
+.tenta {
+	margin: auto;
+	width: 200px;
+}
+.numero {
+	text-align: center;
+	font-size: 150px;
+}

@@ -1,0 +1,10 @@
+.teste	{
+	width: 600px;
+	height: 700px;
+	background: red;
+  border: 50px solid;
+  border-color: red blue yellow green;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+}
