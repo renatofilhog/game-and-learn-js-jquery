@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.placar {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			background-color: #DDD;
+			width: 150px;
+			height: 150px;
+			text-align: center;
+			margin-left: -75px;
+			margin-top: -75px;
+		}
+		#placar {
+			font-size: 50px;
+		}
+
+		.bola {
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			background-color: #000;
+			position: absolute;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="placar">
+		Bolas estouradas: <br>
+		<span id="placar">0</span><br>
+		<button id="comecar">Começar jogo</button><br><br>
+		<button id="parar">Parar o jogo</button>
+	</div>
+	
+
+	<script type="text/javascript" src="../../jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
